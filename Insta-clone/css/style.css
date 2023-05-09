@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Noto Sans', sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+/*Incicio container geral*/
+.container{
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container-img{
+  margin-top: 34px;
+}
+
+
+/*Inicio container formulario*/
+.container-general-form{
+  border: 1px solid #dbdbdb;
+  width: 264px;
+  height: 320px;
+  margin-top: 45px;
+  margin-left: 30px;
+  padding: 42px;
+}
+
+.container-general-form img{
+  padding-bottom:33px ;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+
+/*Inicio formulario*/
+.form input[type="text"],
+input[type="password"]{
+  background: #fafafa;
+  border: 1px solid #dbdbdb;
+  width: 268px;
+  box-sizing: border-box;
+  margin-top: 7px;
+  padding: 11px;
+  font-size: 12px;
+}
+
+.form input[type="submit"]{
+  background-color: #4db5f9;
+  color:white;
+  width: 268px;
+  margin-top: 14px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.links{  
+  width: 268px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:20px;
+}
+
+.links a {
+  text-decoration: none;
+  margin-top: 20px;
+  color: #385185;
+}
+
+.links a:hover{
+  text-decoration: underline;
+}
+
+.link1{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.link2{
+  font-size: 12px;
+  
+}
+
+
+/*Inicio container cadastre-se*/
+.cantainer-general-sing-up{
+  width: 310px;
+  height: 23px;
+  margin-top: 10px;
+  margin-left: 30px;
+  padding: 19px;
+  border: 1px solid #dbdbdb;  
+  font-size: 12px;  
+  text-align: center;
+}
+
+.cantainer-general-sing-up a{
+  text-decoration: none;
+}
+.cantainer-general-sing-up a:hover{
+  text-decoration: underline;
+}
+.links p{
+  font-size: 16px;
+  color: #8a8a8a;
+  font-weight: bold;
+}
+
+/*Inicio container imagens download*/
+.container-general-download{
+  margin-top: 18px;
+  margin-left: 34px;
+  width: 350px; 
+  text-align: center;
+  font-size: 14px;
+
+}
+
+.container-general-download-img img{
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;  
+  height: 40px;
+  width: 137px;
+}
+
+footer{
+  margin-top: 5%;
+  height: 50px;
+  text-align: center;
+  color:#dbdbdb;
+}
+
+@media screen and (max-width: 853px) {
+  .container-img {
+    display: none;
+  }
+}
